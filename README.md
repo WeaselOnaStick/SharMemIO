@@ -12,7 +12,7 @@ This add-on allows you to read player's position (in/out of car), use that data 
   1. Open command console
   2. Execute following `pip install pymem`
 ## Manually if previous method didn't work:
-  1. Manually download [pymem from pypi.org here https://pypi.org/project/Pymem/#files](https://pypi.org/project/Pymem/#files (download the source Pymem-***.tar.gz file)
+  1. Manually download [pymem from pypi.org here https://pypi.org/project/Pymem/#files](https://pypi.org/project/Pymem/#files) (download the source Pymem-***.tar.gz file)
   2. Inside the archive you should find "pymem" module folder (it should have init.py file inside of it!)
   3. Copy the folder into the folder where blender stores its modules. The path by default for blender 2.93 is C:\Program Files\Blender Foundation\Blender 2.93\2.93\python\lib\site-packages
   4. After restarting blender, the add-on should work. If not, contact me!

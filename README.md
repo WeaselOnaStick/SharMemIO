@@ -16,3 +16,10 @@ This add-on allows you to read player's position (in/out of car), use that data 
   2. Inside the archive you should find "pymem" module folder (it should have init.py file inside of it!)
   3. Copy the folder into the folder where blender stores its modules. The path by default for blender 2.93 is C:\Program Files\Blender Foundation\Blender 2.93\2.93\python\lib\site-packages
   4. After restarting blender, the add-on should work. If not, contact me!
+
+# How To Install the addon:
+Latest stable release:
+ * [Download latest zip from https://github.com/WeaselOnaStick/SharMemIO/releases/tag/Release](https://github.com/WeaselOnaStick/SharMemIO/releases/tag/Release)
+ * In Blender: `Edit` > `Preferences` > `Add-ons` > `Install...`
+ * Choose a ZIP you just downloaded
+ * Enable the add-on

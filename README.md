@@ -1,7 +1,22 @@
-# SharMemIO
-Previously part of [WMDE (https://github.com/WeaselOnaStick/map-data-editor)](https://github.com/WeaselOnaStick/map-data-editor).
+*Previously part of [WMDE (https://github.com/WeaselOnaStick/map-data-editor)](https://github.com/WeaselOnaStick/map-data-editor).*
 
-This add-on allows you to read player's position (in/out of car), use that data to drive blender animation, and also to write player's position by teleporting to 3D cursor's position.
+# SharMemIO Features:
+  - Allows you to monitor: `(credit to Lucas for figuring out correct pointers for this)`
+    - game version
+    - game state
+    - current character name
+    - whether the player is in a car or not
+  - Allows you to read, copy and use as drivers the following in-game variables: `(credit to Lucas for figuring out correct pointers for this)`
+    - player's position,
+    - player's rotation,
+    - car's position,
+    - car's rotation
+  - Ability to change refresh rate at which the add-on reads in-game variables
+  - Ability to drive 3D cursor's location and rotation using in-game values (also can be used as a driver but not as practical)
+  - Ability to automatically insert keyframes (at the frequency specified above) to any given object
+    - Also adds convenience operator for playing/pausing scene's animation
+    - and a checkbox to automatically extend scene duration 
+  - Operator that teleports the player to 3D cursor's position (warning: can cause clipping with tall cars)
 
 [Youtube video demo:](https://www.youtube.com/watch?v=JTSPDk3QBmw)
 ![SMIO](https://i.imgur.com/XZAnEDl.png)

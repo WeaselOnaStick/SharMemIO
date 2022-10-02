@@ -22,7 +22,7 @@
 ![SMIO](https://i.imgur.com/XZAnEDl.png)
 
 
-# This add-on requires pymem python module! Here are 2 ways of installing it toblender's python
+# This add-on requires pymem python module! Here are 2 ways of installing it to blender's python
 ## Automatically if you have python installed globally:
   1. Open command console
   2. Execute following `pip install pymem`
